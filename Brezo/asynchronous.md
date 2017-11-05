@@ -1,4 +1,4 @@
-#Asincronía
+# Asincronía
 
 La asincronía en JS sirve para conseguir que una función se ejecute después de que se haya ejecutado otra. El ejemplo más sencillo e código asíncrono es el siguiente:
 
@@ -14,8 +14,8 @@ Ya que el código se sigue ejecutando, mientras que  la función afterTwoSeconds
 Para entender para qué sirve Js asíncrono, podemos pensar en este ejemplo de [pluralsight.com](http://pluralsight.com):
 _Digamos que llamas a un amigo y le pides la dirección de correo de un amigo mutuo que has perdido. Tu amigo no tiene esta información memorizada, por lo que tiene que encontrar su libreta de direcciones y buscarla. Esto podría llevarle unos minutos. Existen diferentes estrategias para cómo proceder:
 
-**1.**(Sincrónico) Mantenerse al teléfono y esperar.
-**2.**(Asincrónico) Decirle a tu amigo que te devuelva la llamada una vez que tenga la información. Mientras tanto, puede concentrar su atención en las otras tareas que necesita realizar, como doblar la ropa y lavar los platos._
+**1.** (Sincrónico) Mantenerse al teléfono y esperar.
+**2.** (Asincrónico) Decirle a tu amigo que te devuelva la llamada una vez que tenga la información. Mientras tanto, puede concentrar su atención en las otras tareas que necesita realizar, como doblar la ropa y lavar los platos._
 
 Cuando damos instrucciones de forma asíncrona, éstas no se ejecutan de forma secuencial con el resto del programa, sino que se les da una prioridad menor y se añaden a una cola de ejecución en la que quedan a la espera de ser procesadas.
 
@@ -23,9 +23,9 @@ Cuando damos instrucciones de forma asíncrona, éstas no se ejecutan de forma s
 
 
 
-##Callbacks & AsyncAwait
+## Callbacks & AsyncAwait
 
-###1. Callbacks
+### 1. Callbacks
 
 **Ejemplo:**
 ```javascript
@@ -65,7 +65,7 @@ En este ejemplo, se ejecutan las dos primeras funciones (**primerPaso**(4, **seg
 
 
 
-###2. Async/Await
+### 2. Async/Await
 
 **Mismo ejemplo pero con async/await:**
 ```javascript
