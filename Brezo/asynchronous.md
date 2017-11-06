@@ -1,6 +1,6 @@
 # Asincronía
 
-La asincronía en JS sirve para conseguir que una función se ejecute después de que se haya ejecutado otra. El ejemplo más sencillo de código asíncrono es el siguiente:
+La asincronía en Js sirve para conseguir que una función se ejecute después de que se haya ejecutado otra. En Js el código se ejecuta de una manera lógica, pero con la asincornía conseguimos dejar de ejecutar partes de nuestro script de manera secuencial. El ejemplo más sencillo de código asíncrono es el siguiente:
 
 ```javascript
 console.log('1')
